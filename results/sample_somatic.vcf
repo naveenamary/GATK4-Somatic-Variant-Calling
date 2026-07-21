@@ -1,0 +1,7 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	TUMOR	NORMAL
+chr17	7674220	.	C	T	.	PASS	DP=120;AF=0.35	GT:AD:DP	0/1:78,42:120	0/0:110,0:110
+chr7	55249071	.	C	T	.	PASS	DP=95;AF=0.42	GT:AD:DP	0/1:55,40:95	0/0:90,0:90
